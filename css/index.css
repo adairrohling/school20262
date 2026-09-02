@@ -26,6 +26,24 @@ a {
   text-decoration: none;
 }
 
+.banner-content{
+  text-align: center;
+}
+.banner-content h2 {
+  color: #fff;
+}
+.banner-content h3{
+  color: #00e77f;
+}
+.course{
+  background-color: #4d4d4d;
+  border-radius: 1rem;
+}
+.course-content{
+  color:#fff;
+  text-align: center;
+}
+
 
 @media (min-width: 768px) {
   header {
@@ -33,13 +51,13 @@ a {
     justify-content: space-between;
     align-items: center;
   }
-  .main{
-    display: flex;
+  .banner{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
   }
 }
 
 @media (min-width: 1024px) {
-  .banner{
-    display: flex;
-  }
+  
 }
