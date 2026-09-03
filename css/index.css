@@ -35,6 +35,10 @@ a {
 .banner-content h3{
   color: #00e77f;
 }
+main{
+  display: grid;
+  grid-gap: 0.5rem;
+}
 .course{
   background-color: #4d4d4d;
   border-radius: 1rem;
@@ -53,11 +57,15 @@ a {
   }
   .banner{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
   }
+  main{
+    grid-template-columns: 1fr 1fr;
+  }
 }
-
 @media (min-width: 1024px) {
-  
+ main{
+  grid-template-columns: 1fr 1fr 1fr;
+ } 
 }
